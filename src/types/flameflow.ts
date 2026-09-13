@@ -1,4 +1,4 @@
-export const sections = ["overview","users","database","analytics","seo","domain","integrations","security","agents","workflows","logs","api","settings","mcp"] as const;
+export const sections = ["overview","users","database","analytics","integrations","security","agents","workflows","logs","api","settings","mcp"] as const;
 export type Section = (typeof sections)[number];
 export type ProjectConfig = { id:string; name:string; slug:string; description:string; createdAt:string; visibility:"public"|"private"|"team"|"restricted"; isFavorite:boolean; badgeVisible:boolean; previewUrl:string; environment:"development"|"staging"|"production"; deploymentStatus:"deployed"|"building"|"failed"|"not_deployed"; backendUrl?:string };
 export type UserRole = "Admin"|"Manager"|"Member"|"Viewer";
