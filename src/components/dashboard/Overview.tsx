@@ -2,7 +2,7 @@ import { useState } from "react";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { Activity, CheckCircle2, Copy, Edit3, Eye, EyeOff, Gauge, MoreHorizontal, Rocket, Share2, Sparkles, Star, Users } from "lucide-react";
+import { Activity, CheckCircle2, Copy, Edit3, Eye, EyeOff, Gauge, Globe, MoreHorizontal, Rocket, Share2, Sparkles, Star, Users } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
